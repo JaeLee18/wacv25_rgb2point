@@ -136,7 +136,25 @@ Moreover, our method produces 63.1% more consistent high-quality results across 
   </div>
 </section>
 <!-- End paper abstract -->
-
+  
+<!-- Paper Overview -->
+<section class="section hero">
+  <div class="container is-max-desktop">
+    <div class="columns is-centered has-text-centered">
+      <div class="column is-four-fifths">
+        <h2 class="title is-3">Overview</h2>
+        <div class="content has-text-justified">
+          <img src="static/images/overview.png" alt="Overview"/>
+          <p>
+           RGB2Point takes a single view RGB image and extracts image features from the pre-trained ViT. The Contextual Feature Integrator then refines these extracted features, which applies a multi-head attention mechanism to highlight specific regions of interest within the features. The weighted features are forwarded to the Geometric Projection Module, which maps them into a 3D space, resulting in a point cloud representation. We carefully designed the model, RGB2Point which requires only 2.3GB of VRAM to generate a 3D point cloud from a single RGB image.
+          <p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End paper Overview -->
+  
 
 <!-- Image carousel -->
 <section class="hero is-small">
